@@ -35,6 +35,7 @@ p, li {
 img {
     display: block;
     margin: 0 auto;
-    width: 750px;
+    width: 69%;
+    max-width: 900px;
     border-radius: 24%
 }
