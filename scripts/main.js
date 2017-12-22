@@ -10,19 +10,19 @@ myImage.onclick = function(){
 }
 
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h2');
+var welcomeMessage = document.getElementById('welcomeMessage');
 
 function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Welcome, ' + myName + '.';
+    welcomeMessage.textContent = 'Welcome, ' + myName + '.';
 }
 
 if(!localStorage.getItem('name')) {
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Welcome, ' + storedName + '.';
+    welcomeMessage.textContent = 'Welcome, ' + storedName + '.';
 }
 
 myButton.onclick = function() { setUserName(); }

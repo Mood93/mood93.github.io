@@ -39,3 +39,7 @@ img {
     max-width: 600px;
     border-radius: 24%
 }
+
+#welcomeMessage {
+    margin: 0;
+}
