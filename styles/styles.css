@@ -40,6 +40,16 @@ img {
     border-radius: 24%
 }
 
+td {
+    width: 25%;
+}
+
 #welcomeMessage {
     margin: 0;
+}
+
+#navbar {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
 }
